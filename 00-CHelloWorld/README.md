@@ -1,1 +1,1 @@
-en este ejercicio se utilizó compilador c18
+en este ejercicio se utilizÃ³ IDE dev c++ que viene con el MinGW (Compilador de GCC para windows) incluido
