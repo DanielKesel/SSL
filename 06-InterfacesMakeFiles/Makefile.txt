@@ -1,0 +1,12 @@
+all: TablasDeConversion.exe ConversionTest.exe
+TablasDeConversion.exe: TablasDeConversion.o Conversion.o
+	gcc TablasDeConversion.o Conversion.o -o TablasDeConversion.exe -std=c11
+TablasDeConversion.o: TablasDeConversion.c Conversion.h
+	gcc -c TablasDeConversion.c -o TablasDeConversion.o -std=c11 -Wall -pedantic-errors -m32 -D __DEBUG__ -g3 -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include"
+ConversionTest.exe: ConversionTest.o Conversion.o
+	gcc ConversionTest.o Conversion.o -o ConversionTest.exe -std=c11
+ConversionTest.o: ConversionTest.c Conversion.h
+	gcc -c ConversionTest.c -o ConversionTest.o -std=c11 -Wall -pedantic-errors -m32 -D __DEBUG__ -g3 -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include"
+Conversion.o: Conversion.h Conversion.c
+	gcc -c Conversion.c -o Conversion.o -std=c11 -Wall -pedantic-errors -m32 -D __DEBUG__ -g3 -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include"
+
