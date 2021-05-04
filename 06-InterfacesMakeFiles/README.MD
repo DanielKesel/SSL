@@ -6,28 +6,4 @@
 03/05/2021 después de la clase:
 	   El ejecutable de TablasDeConversiones pudo visualizarse correctamente sin cerrarse al ejecutarse por consola de windows CMD.
 	   Conversion de Fahrenheit a Celsius
-  0  -17.8
- 40    4.4
- 80   26.7
-120   48.9
-160   71.1
-200   93.3
-240  115.6
-280  137.8
-Conversion de Celcius a Fahrenheit
--17   15.0
- -6   26.0
-  5   37.0
- 16   48.0
- 27   59.0
- 38   70.0
- 49   81.0
- 60   92.0
- 71  103.0
- 82  114.0
- 93  125.0
-104  136.0
-115  147.0
-126  158.0
-137  169.0
-148  180.0
+  ![image](https://user-images.githubusercontent.com/82064789/116953042-9c100480-ac62-11eb-924b-ee5984b0bad1.png)
