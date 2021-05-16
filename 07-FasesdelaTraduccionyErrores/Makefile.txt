@@ -1,0 +1,22 @@
+# Makes hello9.exe
+# JMS
+# 2016
+# K&R Exercise 1.15. Rewrite the temperature conversion program
+# of Section 1.2 to use a function for conversion.
+BIN = hello9.exe
+OBJ = hello9.o studio2.o
+CC = gcc
+CFLAGS = -std=c11 -Wall -pedantic-errors -m32 -D __DEBUG__ -g3 $(INCS)
+# LDFLAGS = -static-libgcc
+INCS = -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include"
+LDLIBS = -L"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32"
+RM = rm -f
+$(BIN): $(OBJ)
+	$(CC) $(OBJ) -o $(BIN) $(CFLAGS) $(LDFLAGS) $(LDLIBS)
+hello9.o: hello9.c studio.h
+	$(CC) -c hello9.c -o hello9.o $(CFLAGS)
+studio2.o: studio.h studio2.c
+	$(CC) -c studio2.c -o studio2.o $(CFLAGS)
+.PHONY: clean
+clean:
+	$(RM) $(OBJ) $(BIN)
