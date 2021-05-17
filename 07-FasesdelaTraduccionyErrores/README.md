@@ -43,19 +43,19 @@ Conclusiones: Podemos observar códigos más parecidos entre hello3.c y hello3.i
 
 ![image](https://user-images.githubusercontent.com/82064789/118426351-6d9e1a80-b6a1-11eb-94ec-1e0504cfc0a5.png)
 ![image](https://user-images.githubusercontent.com/82064789/118426361-71ca3800-b6a1-11eb-9085-e9db6ab50ee7.png)
-![image](https://user-images.githubusercontent.com/82064789/118426374-77c01900-b6a1-11eb-8732-acf34a34e7ed.png)
 
 a.	Compilamos el resultado y generamos hello3.s, no ensamblamos; 
 
-![image](https://user-images.githubusercontent.com/82064789/118426392-7f7fbd80-b6a1-11eb-9846-38adb4583e3a.png)
- 
+![image](https://user-images.githubusercontent.com/82064789/118426374-77c01900-b6a1-11eb-8732-acf34a34e7ed.png)
+
+
 b.	Compilamos y verificamos donde nos tira error: 
 
- ![image](https://user-images.githubusercontent.com/82064789/118426433-91616080-b6a1-11eb-8cd2-e477a7ce0a21.png)
-
+![image](https://user-images.githubusercontent.com/82064789/118426392-7f7fbd80-b6a1-11eb-9846-38adb4583e3a.png)
 
 Procedemos a corregir únicamente el error y no el warning:
 
+![image](https://user-images.githubusercontent.com/82064789/118426433-91616080-b6a1-11eb-8cd2-e477a7ce0a21.png)
 ![image](https://user-images.githubusercontent.com/82064789/118426556-c8d00d00-b6a1-11eb-857c-4a4a180a301d.png)
 
  
