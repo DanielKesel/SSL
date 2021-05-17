@@ -41,11 +41,9 @@ Conclusiones: Podemos observar códigos más parecidos entre hello3.c y hello3.i
 
 2.	Compilación
 
-![image](https://user-images.githubusercontent.com/82064789/118426351-6d9e1a80-b6a1-11eb-94ec-1e0504cfc0a5.png)
-![image](https://user-images.githubusercontent.com/82064789/118426361-71ca3800-b6a1-11eb-9085-e9db6ab50ee7.png)
-
 a.	Compilamos el resultado y generamos hello3.s, no ensamblamos; 
 
+![image](https://user-images.githubusercontent.com/82064789/118426361-71ca3800-b6a1-11eb-9085-e9db6ab50ee7.png)
 ![image](https://user-images.githubusercontent.com/82064789/118426374-77c01900-b6a1-11eb-8732-acf34a34e7ed.png)
 
 
